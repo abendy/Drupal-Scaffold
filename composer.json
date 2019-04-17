@@ -29,7 +29,7 @@
         "squizlabs/php_codesniffer": "^2.0",
         "mikey179/vfsStream": "^1.2",
         "phpunit/phpunit": ">=4.8.35 <5",
-        "drush/drush": "^8.1",
+        "drush/drush": "^9.4",
         "lastcall/mannequin-drupal": "~1.0",
         "lastcall/composer-upstream-files": "^1.1.1"
     },
