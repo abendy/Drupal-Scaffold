@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "743614d5cbdc7dcafaea1ecb43df9bd5",
@@ -1165,16 +1165,16 @@
         },
         {
             "name": "hirak/prestissimo",
-            "version": "0.3.7",
+            "version": "0.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hirak/prestissimo.git",
-                "reference": "45fcc8a65fb06b29cc5cdd1b0bae7a690aa09496"
+                "reference": "01bed92c45e84d01a96f5d15c6e49958cbd57f36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hirak/prestissimo/zipball/45fcc8a65fb06b29cc5cdd1b0bae7a690aa09496",
-                "reference": "45fcc8a65fb06b29cc5cdd1b0bae7a690aa09496",
+                "url": "https://api.github.com/repos/hirak/prestissimo/zipball/01bed92c45e84d01a96f5d15c6e49958cbd57f36",
+                "reference": "01bed92c45e84d01a96f5d15c6e49958cbd57f36",
                 "shasum": ""
             },
             "require": {
@@ -1184,7 +1184,7 @@
             },
             "require-dev": {
                 "composer/composer": "1.0.0",
-                "phpunit/phpunit": "^4.8",
+                "phpunit/phpunit": "4.8.* || 5.7.* || ^6.3",
                 "squizlabs/php_codesniffer": "^2.5"
             },
             "type": "composer-plugin",
@@ -1212,7 +1212,7 @@
                 "parallel",
                 "speedup"
             ],
-            "time": "2017-05-27T04:45:45+00:00"
+            "time": "2019-05-04T08:16:12+00:00"
         },
         {
             "name": "masterminds/html5",
@@ -3743,12 +3743,6 @@
                 "url": "https://git.drupal.org/project/coder.git",
                 "reference": "984c54a7b1e8f27ff1c32348df69712afd86b17f"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/klausi/coder/zipball/984c54a7b1e8f27ff1c32348df69712afd86b17f",
-                "reference": "984c54a7b1e8f27ff1c32348df69712afd86b17f",
-                "shasum": ""
-            },
             "require": {
                 "ext-mbstring": "*",
                 "php": ">=5.4.0",
@@ -4803,12 +4797,12 @@
             "version": "v1.6.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mikey179/vfsStream.git",
+                "url": "https://github.com/bovigo/vfsStream.git",
                 "reference": "d5fec95f541d4d71c4823bb5e30cf9b9e5b96145"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/d5fec95f541d4d71c4823bb5e30cf9b9e5b96145",
+                "url": "https://api.github.com/repos/bovigo/vfsStream/zipball/d5fec95f541d4d71c4823bb5e30cf9b9e5b96145",
                 "reference": "d5fec95f541d4d71c4823bb5e30cf9b9e5b96145",
                 "shasum": ""
             },
@@ -5436,6 +5430,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2015-10-02T06:51:40+00:00"
         },
         {
@@ -6163,6 +6158,7 @@
             "keywords": [
                 "microframework"
             ],
+            "abandoned": "symfony/flex",
             "time": "2017-07-23T07:40:14+00:00"
         },
         {
